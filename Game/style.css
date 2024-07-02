@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(44, 44, 44);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 0, 0);
+}
+
+#scoreText {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -390px);
+   color: wheat;
+   background-color: transparent;
+   font-size: 2rem;
+}
+
+#lifesText {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 355px);
+   color: wheat;
+   background-color: transparent;
+   font-size: 2rem;
+}
